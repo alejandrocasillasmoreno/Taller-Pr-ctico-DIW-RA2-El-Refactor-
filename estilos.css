@@ -1,65 +1,124 @@
-* {
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-#titulo-index{
-
+header {
+    background-color: #004a99;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
 }
 
-#estado{
-
+#titulo-index {
+    margin: 0;
+    font-size: 2.5em;
 }
+
+#estado {
+    margin: 5px 0 0 0;
+    font-style: italic;
+}
+
 
 #navegacion {
-
+    background-color: #333;
+    padding: 10px 40px;
 }
 
-#inicio {
-
+#navegacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
 }
 
-#Sobre-mi {
-
+#navegacion li {
+    display: inline-block;
+    margin-right: 20px;
 }
 
+#navegacion a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
 
-#contacto {
+#navegacion a.activo,
+#navegacion a:hover {
+    color: #00aaff;
+}
 
+main {
+    padding: 20px 40px;
+    min-height: 60vh;
 }
 
 #descripcion {
-
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
 }
 
-#titulo-descripcion {
-
+#titulo-contacto { 
+    color: #004a99;
+    border-bottom: 2px solid #004a99;
+    padding-bottom: 5px;
 }
 
-#proyecto-destacados {
+main p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
 
+#proyectos-destacados div {
+    background-color: #eee;
+    border: 1px dashed #ccc;
+    padding: 40px;
+    text-align: center;
+    color: #777;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px;
 }
 
 #pie-pagina {
-
+    background-color: #222;
+    color: #aaa;
+    padding: 20px 40px;
+    text-align: center;
+    margin-top: 20px;
 }
 
-#Sobre-mi {
-
-}
-
-#titulo-sobre {
-
-}
-
-#caja-contenido{
-
-}
-
-#titulo-habilidades {
-
-}
-
-#lista-habilidades {
-
+#pie-pagina p {
+    margin: 0;
+    line-height: 1.4;
+    font-size: 1em; 
 }
